@@ -1,24 +1,19 @@
 package model;
 
 public class Aluno {
-	
-	private String matricula;
-	private String nome;
-	private Data dataNascimento;
+	private String matricula, nome;
+	private Data dataNasc;
 	private char sexo;
 	
-	public Aluno() {
-		
-	}
-	
-	public Aluno(String matricula, String nome, Data dataNascimento, char sexo) {
-	
+	public Aluno() { }
+
+	public Aluno(String matricula, String nome, Data dataNasc, char sexo) {
 		this.matricula = matricula;
 		this.nome = nome;
-		this.dataNascimento = dataNascimento;
+		this.dataNasc = dataNasc;
 		this.sexo = sexo;
 	}
-	
+
 	public String getMatricula() {
 		return matricula;
 	}
@@ -35,12 +30,12 @@ public class Aluno {
 		this.nome = nome;
 	}
 
-	public Data getDataNascimento() {
-		return dataNascimento;
+	public Data getDataNasc() {
+		return dataNasc;
 	}
 
-	public void setDataNascimento(Data dataNascimento) {
-		this.dataNascimento = dataNascimento;
+	public void setDataNasc(Data dataNasc) {
+		this.dataNasc = dataNasc;
 	}
 
 	public char getSexo() {
@@ -50,5 +45,4 @@ public class Aluno {
 	public void setSexo(char sexo) {
 		this.sexo = sexo;
 	}
-
 }

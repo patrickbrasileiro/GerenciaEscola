@@ -1,15 +1,22 @@
 //import controller.AlunoController;
-import controller.AlunoController;
+import view.AlunoView;
 
 
 public class Main {
 	public static void main(String[] args) {
 	
-	AlunoController al1 = new AlunoController();
+		
+	 new AlunoView();
 	
-	al1.listarTodos();
-	al1.ListaAniversariantes(8);
+	
+	//AlunoController al1 = new AlunoController();
+	
+	//al1.listarTodos();
+//	al1.ListaAniversariantes(1);
 //	al1.inserirAluno();
+	
+
+	
 			
 	}
 	
